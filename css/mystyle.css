@@ -1,0 +1,42 @@
+
+		#mybtn:hover{
+			color: #000;
+		}          
+        .team-img{
+            max-height: 300px;
+            min-height: 300px;
+            height: 300px;
+            overflow: hidden;
+        }
+		.cteam-content{
+			max-height: 300px;
+			height: 300px;
+		}
+		.img-responsive{
+			width: 100%;
+			height: auto;
+        }
+        .client-span{            
+            text-transform: none !important;
+        }
+        
+        
+        @media only screen and (max-width: 991px) {            
+		.team-img{
+			max-height: 300px;
+			min-height: 300px;
+			height: 300px;
+			overflow: hidden;
+		}
+        }
+        @media only screen and (max-width: 767px) {           
+            .team-img{
+                max-height: 250px;
+                height: 250px;
+            }
+        }
+        @media only screen and (max-width: 480px) {                     
+            .team-img{
+                height: auto;
+            }
+        }
